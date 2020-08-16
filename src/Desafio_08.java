@@ -16,15 +16,12 @@ public class Desafio_08 {
 		double x2 = 0;
 		double delta = 0;
 		
-		delta = (b * b) - (4 * (a + c));
-		System.out.println(delta);
-		
-		System.out.println("delta " + Math.sqrt(delta));
+		delta = (b * b) - (4 * a * c);		
 		
 		if (delta >= 0) {			
 			
-	        x1 = (-b + Math.sqrt(delta) ) / 2 * a; 
-	        x2 = (-b - Math.sqrt(delta) ) / 2 * a; 
+	        x1 = - ((-b + Math.sqrt(delta) ) / 2 * a); 
+	        x2 = - ((-b - Math.sqrt(delta) ) / 2 * a); 
 	        
 	        System.out.println("\nX1 = " + x1);
 	        System.out.println("X2 = " + x2);
